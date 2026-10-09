@@ -781,6 +781,40 @@ const locale = {
     'windy': '바람',
     'windy-variant': '강풍'
   },
+  ja: {
+    'tempHi': '最高気温',
+    'tempLo': '最低気温',
+    'precip': '降水量',
+    'feelsLike': '体感',
+    'units': {
+      'km/h': 'km/h',
+      'm/s': 'm/s',
+      'mph': 'mph',
+      'Bft': 'Bft',
+      'hPa': 'hPa',
+      'mmHg': 'mm Hg',
+      'mm': 'mm',
+      'in': 'in'
+    },
+    'cardinalDirections': [
+      '北', '北北東', '北東', '東北東', '東', '東南東', '南東', '南南東',
+      '南', '南南西', '南西', '西南西', '西', '西北西', '北西', '北北西', '北'
+    ],
+    'clear-night': '晴れ',
+    'cloudy': '曇り',
+    'fog': '霧',
+    'hail': '雹',
+    'lightning': '雷',
+    'lightning-rainy': '雷雨',
+    'partlycloudy': '晴れ時々曇り',
+    'pouring': '強い雨',
+    'rainy': '雨',
+    'snowy': '雪',
+    'snowy-rainy': 'みぞれ',
+    'sunny': '晴れ',
+    'windy': '強風',
+    'windy-variant': '強風'
+  },
 };
 
 export default locale;
