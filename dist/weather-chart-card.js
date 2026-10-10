@@ -1259,7 +1259,7 @@ class WeatherChartCardEditor extends s {
               .checked="${this._config.show_temperature !== false}"
             ></ha-switch>
             <label class="switch-label">
-              Show Current Temperature
+              Show Current Temperature 現在の気温の表示
             </label>
           </div>
           <div class="switch-container">
