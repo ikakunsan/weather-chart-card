@@ -394,7 +394,7 @@ class WeatherChartCardEditor extends LitElement {
               .checked="${this._config.show_temperature !== false}"
             ></ha-switch>
             <label class="switch-label">
-              Show Current Temperature 現在の気温の表示
+              Show Current Temperature
             </label>
           </div>
           <div class="switch-container">
@@ -403,7 +403,7 @@ class WeatherChartCardEditor extends LitElement {
               .checked="${this._config.show_current_condition !== false}"
             ></ha-switch>
             <label class="switch-label">
-              Show Current Weather Condition 現在の天気の表示
+              Show Current Weather Condition
             </label>
           </div>
           <div class="switch-container">
@@ -654,9 +654,9 @@ class WeatherChartCardEditor extends LitElement {
            <ha-list-item .value=${'sk'}>Slovak</ha-list-item>
            <ha-list-item .value=${'es'}>Spanish</ha-list-item>
            <ha-list-item .value=${'sv'}>Swedish</ha-list-item>
-	         <ha-list-item .value=${'uk'}>Ukrainian</ha-list-item>
-    	     <ha-list-item .value=${'ko'}>한국어</ha-list-item>
-    	     <ha-list-item .value=${'ja'}>日本語</ha-list-item>
+           <ha-list-item .value=${'uk'}>Ukrainian</ha-list-item>
+           <ha-list-item .value=${'ko'}>한국어</ha-list-item>
+           <ha-list-item .value=${'ja'}>日本語</ha-list-item>
         </ha-select>
         </div>
       </div>
